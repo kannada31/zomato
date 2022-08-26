@@ -1,0 +1,9 @@
+def fibonacci(n):
+if n<0:
+  return "not defined"
+elif n==1 or n==0:
+  return n
+else:
+  return fib(n-1)+fib(n-2)
+n=input("enter the number:")
+print("fibonacci series:",end=" ")
